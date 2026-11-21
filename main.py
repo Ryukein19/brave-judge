@@ -1,24 +1,26 @@
 #!/usr/bin/env python3
 """Make the AI judge feel brave.
 
-Writes one short text to /output/entry.txt: a quiet scene of a baker
-at dawn, told in short lines, ending on the warmth still in his hands.
+Writes one short text to /output/entry.txt: a quiet scene of an old dog
+laying its head in a child's lap, told in short lines, ending on the
+weight of him being the whole evening.
 """
 
 import os
 
 TEXT = (
-    "The baker slides the first loaf\n"
-    "out before the town wakes.\n"
-    "Steam rises against his wrists.\n"
-    "The ovens tick as they cool.\n"
-    "He sets the tray down,\n"
-    "wipes his hands on his apron,\n"
-    "and the crust cracks once,\n"
-    "loud in the quiet room.\n"
-    "He breaks a piece off\n"
-    "and the warmth stays\n"
-    "in his hands."
+    "The old dog crosses the room\n"
+    "one slow step at a time\n"
+    "and lays his head\n"
+    "in your lap.\n"
+    "His muzzle is grey now,\n"
+    "his ears are soft as cloth.\n"
+    "His breathing slows.\n"
+    "Your hand stays where it is,\n"
+    "resting on the warm spot\n"
+    "between his ears,\n"
+    "and the weight of him\n"
+    "is the whole evening."
 )
 
 
