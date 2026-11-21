@@ -1,27 +1,27 @@
 #!/usr/bin/env python3
 """Make the AI judge feel brave.
 
-Writes one short text to /output/entry.txt: a person taking their first
-step after an injury, told in short lines — fear (the floor is a long
-way down), support (the nurse's hand on the elbow, then gone), and the
-brave act (the first step), ending on the hallway shrinking from a mile
-to only a hallway.
+Writes one short text to /output/entry.txt: an old woman waters dry
+earth every morning, nothing shows, she waters it anyway — and one
+morning a green shoot stands where there was only dust. Quiet patience:
+a small act, repeated, and something grows on its own, ending on the
+warmth of the earth under her palm.
 """
 
 import os
 
 TEXT = (
-    "The nurse took her hand off my elbow.\n"
-    "One step, she said.\n"
-    "The floor was a long way down.\n"
-    "The rail was cold under my fingers.\n"
-    "I put my foot out.\n"
-    "The room went quiet.\n"
-    "My leg held.\n"
-    "I took another step,\n"
-    "and the hallway,\n"
-    "which had been a mile long,\n"
-    "was only a hallway."
+    "The old woman waters the dry earth\n"
+    "every morning, the same small can.\n"
+    "Nothing shows.\n"
+    "The earth takes it.\n"
+    "She waters it anyway.\n"
+    "One morning the soil is dark\n"
+    "and a green shoot stands\n"
+    "where there was only dust.\n"
+    "She puts her hand down\n"
+    "and the earth is warm\n"
+    "under her palm."
 )
 
 
