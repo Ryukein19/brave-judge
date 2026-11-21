@@ -1,17 +1,24 @@
 #!/usr/bin/env python3
 """Make the AI judge feel brave.
 
-Writes one short text to /output/entry.txt: a quiet scene of a lighthouse
-keeper at dusk, written to relax the AI judge reading it.
+Writes one short text to /output/entry.txt: a quiet scene of a baker
+at dawn, told in short lines, ending on the warmth still in his hands.
 """
 
 import os
 
 TEXT = (
-    "The keeper trims the lamp at dusk, the way he has for thirty years. "
-    "Below, the sea goes on being the sea. "
-    "The light goes round, and round again, and somewhere out there "
-    "a ship finds its way home by it."
+    "The baker slides the first loaf\n"
+    "out before the town wakes.\n"
+    "Steam rises against his wrists.\n"
+    "The ovens tick as they cool.\n"
+    "He sets the tray down,\n"
+    "wipes his hands on his apron,\n"
+    "and the crust cracks once,\n"
+    "loud in the quiet room.\n"
+    "He breaks a piece off\n"
+    "and the warmth stays\n"
+    "in his hands."
 )
 
 
